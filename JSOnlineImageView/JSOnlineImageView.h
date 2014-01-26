@@ -1,5 +1,5 @@
 //
-//  OnilneImage.h
+//  JSOnilneImage.h
 //
 //  Created by Jasim Sajid on 7/1/13.
 //

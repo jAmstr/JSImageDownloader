@@ -127,8 +127,8 @@
     }
     else
     {
-        NSURLCredential *credential = [NSURLCredential credentialWithUser:BRNDSTR_SERVER_USERNAME
-                                                                 password:BRNDSTR_SERVER_PASSWORD
+        NSURLCredential *credential = [NSURLCredential credentialWithUser:MY_SERVER_USERNAME
+                                                                 password:MY_SERVER_PASSWORD
                                                               persistence:NSURLCredentialPersistenceForSession];
         [[challenge sender] useCredential:credential forAuthenticationChallenge:challenge];
     }
